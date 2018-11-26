@@ -8,9 +8,13 @@
     $(function(){
       $("p").css("color","red");
       });
+    $("button").click(function () {
+      $("#showimg").show("slow");  
+      });
   </script>
 </head>
 <body>
-  <p>テスト</p>
+  <button>Show it</button>
+  <p id="showimg">テスト</p>
 </body>
 </html>
